@@ -3,10 +3,6 @@ function Pieza(nombre,precio){
     this.precio = precio;
 }
 
-// class Pieza{
-//     constructor(precio){
-//         this.precio = precio;
-//     }
-// }
+
 
 module.exports = Pieza;
