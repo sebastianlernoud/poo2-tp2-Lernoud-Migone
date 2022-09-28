@@ -23,23 +23,5 @@ function Factura(id,vendedor){
    
 }
 module.exports = Factura;
-// class Factura{
 
-//     constructor(id,razonSocial,pieza,cantPiezas){
-//         this.id = id;
-//         this.razonSocial = razonSocial;
-//         this.pieza = pieza;
-//         this.cantPiezas = cantPiezas;
-//         this.valor = this.calcularMontoTotal();
-//     }
-
-//     calcularMontoTotal(){
-//         let monto = this.calcularPrecio * this.cantPiezas;
-//         return monto;
-//     }
-
-//     get calcularPrecio(){
-//         return this.pieza.precio;
-//     }
-// }
 
