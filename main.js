@@ -15,10 +15,9 @@ empleado1 = new EmpleadoAdministracion("Martin","Lasarte", 40404040,70000)
 empleado2 = new EmpleadoAntiguo("Jose","Caminata",3030303,60000); 
 empleado3 = new EmpleadoSuplente("Jorge","Escaloneta",3030303,200,500); 
 empleado4 = new EmpleadoVentas("Juan","Rodri",3030303);
-// empleado4
-// empleado5
+
 console.log(empleado1.mostrarSalario())
-//console.log(empleado2.mostrarSalario())
+
 console.log(empleado3.mostrarSalario())
 
 pieza1 = new Pieza("Clavo",300);
