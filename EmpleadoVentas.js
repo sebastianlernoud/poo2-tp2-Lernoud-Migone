@@ -28,32 +28,4 @@ function EmpleadoVentas(nombre,apellido,dni){
 EmpleadoVentas.prototype = Object.create(Empleado.prototype);
 EmpleadoVentas.prototype.constructor = EmpleadoVentas;
 module.exports = EmpleadoVentas;
-// class EmpleadoVentas extends Empleado{
-//     constructor(nombre,apellido,dni){
-//         super(nombre,apellido,dni);
-//         this.facturas= [];
-//     }
-
-//     get salario(){
-//         return "El salario de "+this.nombre+" "+this.apellido+" es: " + this.calcularSalario();
-//     }
-
-//     calcularSalario(){
-//         let porcentaje = 0.5;
-//         let gananciaVentas = this.calcularVentas*porcentaje;
-//         return gananciaVentas;
-//     }
-
-//     get calcularVentas(){
-//         let total = 0;
-//         this.facturas.forEach(element => {
-//             total += element.valor;
-//         });
-//         return total;
-//     }
-
-//     vender(factura){
-//         this.facturas.push(factura);
-//     }
-// }
 
